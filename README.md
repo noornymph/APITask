@@ -10,5 +10,5 @@ A simple practice task to create the end point APIs of an application that has o
 
 # API endpoint to retrieve the list of employees for a specific company
 
-<img width="1197" alt="Screenshot 2024-08-01 at 6 14 51 PM" src="https://github.com/user-attachments/assets/175caf26-f4ff-41af-820a-9989e1f6bada">
+<img width="1440" alt="Screenshot 2024-08-02 at 6 01 25 PM" src="https://github.com/user-attachments/assets/020f6dfb-9fce-479e-9c45-1243d61e7d6c">
 
