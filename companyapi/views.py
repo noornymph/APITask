@@ -24,7 +24,7 @@ class CompanyViewSet(viewsets.ModelViewSet):
     @action(detail=True, methods=["get"])
     def employees(self, request, pk=None):
         """
-        Retrieve the list of employees for a specific company.
+        c
         """
         try:
             company = Company.objects.get(pk=pk)
