@@ -5,8 +5,10 @@ This module contains celery code.
 from __future__ import absolute_import, unicode_literals
 
 import os
+from datetime import timedelta
 
 from celery import Celery
+from celery.schedules import crontab
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "API.settings")
 
@@ -23,3 +25,11 @@ def debug_task(self):
     A debug task that prints the request information.
     """
     print(f"Request: {self.request!r}")
+
+
+app.conf.beat_schedule = {
+    "run-periodic-task-every-minute": {
+        "task": "companyapi.tasks.periodic_task",
+        "schedule": timedelta(seconds=10),
+    },
+}
