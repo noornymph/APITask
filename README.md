@@ -1,5 +1,5 @@
 # APITask
-A simple practice task to create the end point APIs of an application that has one to many relationship between a company and employees.Also it creates two celery tasks out of which one is real time and the other is scheduled.
+A simple practice task to create the end point APIs of an application that has one to many relationship between a company and employees.Also it creates two celery tasks out of which one is runtime and the other is scheduled.
 
 # API endpoint to access the list of companies
 
