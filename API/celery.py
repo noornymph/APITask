@@ -20,6 +20,6 @@ app.autodiscover_tasks()
 @app.task(bind=True)
 def debug_task(self):
     """
-    This task is used to output the details of the Celery task request.
+    A debug task that prints the request information.
     """
     print(f"Request: {self.request!r}")
